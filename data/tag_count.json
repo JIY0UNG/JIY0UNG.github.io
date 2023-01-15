@@ -2,5 +2,9 @@
  {
   "name": "book",
   "size": 1
+ },
+ {
+  "name": "problem-solving",
+  "size": 1
  }
 ]
