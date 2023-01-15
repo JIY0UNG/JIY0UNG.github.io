@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "용어",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/terms",
+ "updated": "2023-01-15 22:46:00 +0900",
+ "children": [
+  "terms/persistence"
+ ]
+}
