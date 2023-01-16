@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "Kotlin",
+ "summary": "",
+ "parent": "language",
+ "url": "/wiki/kotlin",
+ "updated": "2023-01-16 10:51:00 +0900",
+ "children": [
+  "language/kotlin/kotlin-constructor"
+ ]
+}

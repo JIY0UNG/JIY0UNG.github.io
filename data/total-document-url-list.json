@@ -1,6 +1,9 @@
 [
  "/wiki/book",
  "/wiki/index",
+ "/wiki/kotlin",
+ "/wiki/language",
+ "/wiki/language/kotlin/kotlin-constructor",
  "/wiki/problem-solving",
  "/wiki/problem-solving/boj-10816",
  "/wiki/problem-solving/boj-1158",
@@ -28,6 +31,7 @@
  "/wiki/problem-solving/programmers-131705",
  "/wiki/problem-solving/programmers-134240",
  "/wiki/problem-solving/programmers-138476",
+ "/wiki/problem-solving/programmers-138477",
  "/wiki/problem-solving/programmers-140108",
  "/wiki/problem-solving/programmers-17677",
  "/wiki/problem-solving/programmers-17681",
