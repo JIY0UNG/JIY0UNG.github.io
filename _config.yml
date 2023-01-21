@@ -1,6 +1,6 @@
 # Site settings
 title: 졍 위키
-url: "https://JIY0UNG.github.io"
+url: "https://jiy0ung.github.io"
 baseurl: ""
 description: >
     졍 위키
@@ -50,9 +50,9 @@ giscus:
 google_adsense:
   client: SAMPLE-VALUE
 
-blame: "https://github.com/JIY0UNG/JIY0UNG.github.io/blame/main/_wiki"
-edit: "https://github.com/JIY0UNG/JIY0UNG.github.io/edit/main/_wiki"
-issue: "https://github.com/JIY0UNG/JIY0UNG.github.io/issues/new"
+blame: "https://github.com/jiy0ung/jiy0ung.github.io/blame/main/_wiki"
+edit: "https://github.com/jiy0ung/jiy0ung.github.io/edit/main/_wiki"
+issue: "https://github.com/jiy0ung/jiy0ung.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
