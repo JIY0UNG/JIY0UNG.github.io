@@ -43,9 +43,9 @@ giscus:
   category: Announcements
   category_id: DIC_kwDOIx2s_c4CTmkM
 
-# google_analytics:
-#   ua: SAMPLE-VALUE
-#   encrypted_ua: THIS-IS-SAMPLE-VALUE
+google_analytics:
+  ua: G-CV9FXW5JNT
+  encrypted_ua: WCfwrmsZo8HNWR6Ls4NlOuOkbgQJB6KqW5mjiZiKHiKHmssrvL4sTw==
 
 google_adsense:
   client: SAMPLE-VALUE
