@@ -38,10 +38,10 @@ collections:
 
 # Comment Service
 giscus:
-  data_repo: JIY0UNG/JIY0UNG.github.io
-  data_repo_id: R_kgDOIx2s_Q
-  data_category: General
-  data_category_id: DIC_kwDOIx2s_c4CTmkN
+  repo: jiy0ung/jiy0ung.github.io
+  repo_id: R_kgDOIx2s_Q
+  category: Announcements
+  category_id: DIC_kwDOIx2s_c4CTmkM
 
 # google_analytics:
 #   ua: SAMPLE-VALUE
