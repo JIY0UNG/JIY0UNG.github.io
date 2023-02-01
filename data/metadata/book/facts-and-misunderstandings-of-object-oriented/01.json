@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "객체지향의 사실과 오해 01. 협력하는 객체들의 공동체",
+ "summary": "클래스의 구조와 메서드가 아니라 객체의 역할, 책임, 협력에 집중하라",
+ "parent": "facts-and-misunderstandings-of-object-oriented",
+ "url": "/wiki/book/facts-and-misunderstandings-of-object-oriented/01",
+ "updated": "2023-02-01 13:41:00 +0900",
+ "children": []
+}

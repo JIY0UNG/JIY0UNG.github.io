@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "객체지향의 사실과 오해",
+ "summary": "",
+ "parent": "book",
+ "url": "/wiki/facts-and-misunderstandings-of-object-oriented",
+ "updated": "2023-02-01 13:40:00 +0900",
+ "children": [
+  "book/facts-and-misunderstandings-of-object-oriented/01"
+ ]
+}
