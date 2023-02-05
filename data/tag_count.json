@@ -22,5 +22,9 @@
  {
   "name": "terms",
   "size": 1
+ },
+ {
+  "name": "tools",
+  "size": 2
  }
 ]
