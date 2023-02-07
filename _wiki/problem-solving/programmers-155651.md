@@ -2,7 +2,7 @@
 layout  : wiki
 title   : 프로그래머스 - 호텔 대실
 date    : 2023-02-06 18:15:00 +0900
-updated : 2023-02-06 18:15:00 +0900
+updated : 2023-02-07 14:00:00 +0900
 tag     : 
 toc     : true
 public  : true
@@ -91,3 +91,6 @@ public int solution(String[][] book_time) {
     return arr.size();
 }
 ```
+
+## 반성
+- 문제를 풀기 위해 필요한 단계들을 추상화하면 가독성이 더 좋아질 것 같다. 세부 구현부터 시작하지 말고 '무슨 일'을 해야하는지 추상화를 먼저 해보자.
