@@ -42,9 +42,18 @@
     <meta name="msapplication-TileImage" content="/resource/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-{% if site.google_analytics.ua and site.google_analytics.encrypted_ua %}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CV9FXW5JNT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CV9FXW5JNT');
+    </script>
+<!-- {% if site.google_analytics.ua and site.google_analytics.encrypted_ua %} -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.ua }}"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.ua }}"></script>
     <script>
         // https://gist.github.com/chrisveness/43bcda93af9f646d083fad678071b90a
         async function aesGcmDecrypt(ciphertext, password) {
@@ -86,8 +95,8 @@
                 console.log(error);
                 console.log('The gtag id is invalid.');
             });
-    </script>
-{% endif %}
+    </script> -->
+<!-- {% endif %} -->
 {% if site.google_adsense.client and page.adsense == true %}
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
