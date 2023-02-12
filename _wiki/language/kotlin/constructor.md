@@ -2,7 +2,7 @@
 layout  : wiki
 title   : Kotlin 생성자
 date    : 2023-01-16 22:14:00 +0900
-updated : 2023-01-20 02:03:00 +0900
+updated : 2023-02-12 16:02:00 +0900
 tag     : kotlin
 toc     : true
 public  : true
@@ -88,6 +88,63 @@ class Person(
 생성자에 어노테이션이나 접근 제어자가 있는 경우 `constructor`키워드를 필수로 붙여줘야 하고, 접근 제어자는 그 앞에 위치한다.
 ```kotlin
 class Customer public @Inject constructor(name: String)
+```
+
+## 부 생성자(Secondary Constructor)
+접두사 `constructor`를 붙여서 부 생성자를 선언할 수 있다.
+```kotlin
+class Person(val pets: MutableList<Pet> = mutableListOf())
+
+class Pet {
+    constructor(owner: Person) {
+        owner.pets.add(this)
+    }
+}
+```
+
+만약 클래스에 주 생성자가 있으면, 부 생성자는 다른 부 생성자를 통해 간접적으로 주 생성자에게 위임해야 한다. `this` 키워드를 사용하여 동일한 클래스에 대한 생성자 위임을 할 수 있다.
+```kotlin
+class Person(val name: String) {
+    val children: MutableList<Person> = mutableListOf()
+
+    constructor(
+        name: String,
+        parent: Person,
+    ) : this(name) {
+        parent.children.add(this)
+    }
+}
+```
+
+초기화 블록 내부 코드는 효과적으로 주 생성자의 일부가 된다. 주 생성자에 대한 위임은 부 생성자의 첫 번째 명령문에 접근하는 순간에 발생하므로 모든 초기화 블록 및 속성 초기화 코드는 부 생성자의 본문보다 먼저 실행된다.  
+클래스에 주 생성자가 없어도 위임은 여전히 암시적으로 발생하며, 초기화 블록도 여전히 실행된다.
+```kotlin
+class Constructors {
+    init {
+        println("Init block")
+    }
+
+    constructor(i: Int) {
+        println("Constructor")
+    }
+}
+```
+
+```bash
+// 실행 결과
+Init block
+Constructor
+```
+
+추상화되지 않은 클래스가 생성자를 선언하지 않으면 인수 없이 생성된 주 생성자를 가질 것이며, 이때 가시성은 public 일 것이다.  
+클래스가 public 생성자를 가지지 않길 바라면, 가시성이 default가 아닌 비어있는 주 생성자를 선언하면 된다.
+```kotlin
+class DontCreateMe private constructor() {}
+```
+
+JVM에서 모든 주 생성자 파라미터들이 기본값을 가지고 있는 경우, 컴파일러는 기본값을 사용할 수 있는 파라미터 없는 생성자를 추가적으로 만든다. 이는 파라미터 없는 생성자를 통해 클래스 인스턴스를 생성하는 라이브러리(Jackson, JPA)와 함께 코틀린을 사용하기 쉽게 만든다.
+```kotlin
+class Customer(val customerName: String = "")
 ```
 
 ## 링크
