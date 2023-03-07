@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "아키텍처",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/architecture",
+ "updated": "2023-03-07 21:00:00 +0900",
+ "children": [
+  "architecture/types-of-software-architecture"
+ ]
+}

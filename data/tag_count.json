@@ -1,5 +1,9 @@
 [
  {
+  "name": "architecture",
+  "size": 2
+ },
+ {
   "name": "book",
   "size": 3
  },
