@@ -7,8 +7,12 @@
         fetch(`/data/total-document-url-list.json`)
             .then(response => response.json())
             .then(function(data) {
-                const num = getRandomInt(0, data.length);
-                window.location.href = data[num];
+                const filtered = data.filter(element => 
+                    !element.includes('/wiki/problem-solving') && 
+                    !element.includes('/wiki/blog')
+                );
+                const num = getRandomInt(0, filtered.length);
+                window.location.href = filtered[num];
             })
             .catch(function(error) {
                 console.log(error);
