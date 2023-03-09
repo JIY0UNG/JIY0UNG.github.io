@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "트랜잭션(Transaction)",
+ "summary": "여러 DB 작업을 묶어서 실행하고, 일부 작업이 실패하면 성공했던 작업들도 되돌린다",
+ "parent": "database",
+ "url": "/wiki/database/transaction",
+ "updated": "2023-03-09 22:45:00 +0900",
+ "children": []
+}

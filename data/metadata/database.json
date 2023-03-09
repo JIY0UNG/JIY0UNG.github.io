@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "데이터베이스",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/database",
+ "updated": "2023-03-09 22:44:00 +0900",
+ "children": [
+  "database/transaction"
+ ]
+}
