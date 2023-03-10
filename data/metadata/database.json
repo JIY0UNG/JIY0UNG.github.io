@@ -6,6 +6,7 @@
  "url": "/wiki/database",
  "updated": "2023-03-09 22:44:00 +0900",
  "children": [
+  "database/isolation-level",
   "database/transaction"
  ]
 }
