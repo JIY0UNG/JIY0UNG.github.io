@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "AWS",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/aws",
+ "updated": "2023-03-22 18:44:00 +0900",
+ "children": [
+  "aws/permissions-0644"
+ ]
+}

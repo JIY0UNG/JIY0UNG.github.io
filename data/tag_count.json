@@ -4,6 +4,10 @@
   "size": 2
  },
  {
+  "name": "aws",
+  "size": 2
+ },
+ {
   "name": "book",
   "size": 4
  },
