@@ -12,6 +12,8 @@
  "/wiki/database",
  "/wiki/database/isolation-level",
  "/wiki/database/transaction",
+ "/wiki/docker",
+ "/wiki/docker/images-platform-does-not-match",
  "/wiki/facts-and-misunderstandings-of-object-oriented",
  "/wiki/index",
  "/wiki/kotlin",
