@@ -1,4 +1,5 @@
 [
  "aws",
+ "aws/cant-access-port-8080-ec2",
  "aws/permissions-0644"
 ]
