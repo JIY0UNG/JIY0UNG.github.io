@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "SQL",
+ "summary": "",
+ "parent": "database",
+ "url": "/wiki/sql",
+ "updated": "2023-05-07 22:28:00 +0900",
+ "children": [
+  "database/sql/select"
+ ]
+}

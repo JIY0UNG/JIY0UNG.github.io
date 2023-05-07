@@ -32,6 +32,10 @@
   "size": 1
  },
  {
+  "name": "sql",
+  "size": 2
+ },
+ {
   "name": "study",
   "size": 1
  },
