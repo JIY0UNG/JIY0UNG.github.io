@@ -1,4 +1,5 @@
 [
+ "database/sql/group-by",
  "database/sql/select",
  "sql"
 ]
